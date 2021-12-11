@@ -1,5 +1,5 @@
 import "./worklist.css"
-import Work from "../../work/Work"
+import Work from "../work/Work"
 
 function Worklist() {
     return (
@@ -11,6 +11,7 @@ function Worklist() {
                 </p>
             </div>
             <div className="wl-list">
+                <Work />
                 <Work />
                 <Work />
                 <Work />

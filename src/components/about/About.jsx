@@ -1,5 +1,5 @@
 import "./about.css";
-import Team from "../../../img/Team.jpg"
+import Team from "../../img/Team.jpg"
 
 export const About = () => {
   return (

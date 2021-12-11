@@ -1,9 +1,13 @@
-import React from 'react'
+import "./work.css"
 
 export const Work = () => {
     return (
         <div className='w'>
-            card
+            <div className="w-browser">
+                <div className="w-circle"></div>
+                <div className="w-circle"></div>
+                <div className="w-circle"></div>
+            </div>
         </div>
     )
 }

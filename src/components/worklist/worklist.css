@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 100vh;
 }
 
 .wl-texts{
@@ -23,4 +24,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }

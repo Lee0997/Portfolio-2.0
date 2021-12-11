@@ -1,6 +1,6 @@
-import { About } from "./components/intro/about/About";
+import { About } from "./components/about/About";
 import Intro from "./components/intro/Intro";
-import Worklist from "./components/intro/Worklist/Worklist";
+import Worklist from "./components/worklist/Worklist";
 
 const App = () => {
   return <div>
