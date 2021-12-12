@@ -17,7 +17,9 @@ const intro = () => {
                         </div>
                     </div>
                     <div className="i-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eveniet tempore consectetur debitis cupiditate molestiae laboriosam porro labore provident eum facilis, obcaecati soluta eos placeat quia tempora animi nam rem.
+                        Welcome! I'm Lee, I'm a software developer that recently completed my coding bootcamp course with the University of Birmingham and I loved every second of it. This is my portfolio!
+                        Some of the many skills I have picked up are as follows:
+                        HTML5, CSS3, JavaScipt, jQuery, Bootstrap, MySQL and of course React.js which this portfolio was actually built with and deployed on Heroku. Please scroll down a little more to see some of my work and some information about myself.
                     </div>
                 </div>
             </div>

@@ -6,12 +6,9 @@ function Worklist() {
   return (
     <div className="wl">
       <div className="wl-texts">
-        <h1 className="wl-title"> Title </h1>
+        <h1 className="wl-title"> Some examples of my work... </h1>
         <p className="wl-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          consequuntur praesentium reiciendis mollitia aliquam, qui dicta
-          placeat dignissimos magni sed, alias ad pariatur aperiam expedita enim
-          minus accusantium odio molestiae!
+          As a software developer without any formal experience, I am presenting some of the assignments I completed in my time with the University of Birmingham that I feel can reflect the skills I have picked up so far. 
         </p>
       </div>
       <div className="wl-list">

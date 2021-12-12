@@ -13,14 +13,11 @@ export const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          On the left you'll see the people that got me to where I am today, this was my cohort.
+          An amazing team with many talented individuals who continue to discuss and guide eachother on our journey into the development industry.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          As a person with a background in hospitality, construction and fabrication, I had an arduous journey with humble beginnings. However, I remained focused and threw myself in alongside my peers. Quickly realising how much I liked coding and working with my team, I began to spend my free time refining my skills and possibly enjoying a coding meme here and there... I'm a gaming enthusiast, I love writing and more than anything, I enjoy a challenge!   
         </p>
       </div>
     </div>

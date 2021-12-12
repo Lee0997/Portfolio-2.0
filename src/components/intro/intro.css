@@ -5,6 +5,7 @@
 
 .i-left {
     flex: 1;
+    font-size: 28px;
 }
 
 .i-right {
@@ -82,4 +83,9 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.i-description {
+    font-style: 28px;
+    font-weight: 300;
 }
