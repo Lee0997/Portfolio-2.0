@@ -1,12 +1,14 @@
+import react from "react";
 import "./contact.css";
 import Phone from "../../img/phone-icon.png";
 import Email from "../../img/email-icon.png";
 import Address from "../../img/address-icon.png";
-import { useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
   const formRef = useRef();
+  const [done, setDone] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,6 +22,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setDone(true)
         },
         (error) => {
           console.log(error.text);
@@ -58,6 +61,7 @@ const Contact = () => {
             <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
+            {done && "Thanks for contacting me, be with you soon..."}
           </form>
         </div>
       </div>
