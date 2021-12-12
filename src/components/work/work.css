@@ -12,6 +12,8 @@
     background-color: rgb(69, 113, 235);
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 
 .w-circle {
@@ -20,4 +22,13 @@
     border-radius: 50%;
     background-color: white;
     margin: 3px;
+}
+
+.w-img {
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.w:hover .w-img {
+    transform: translateY(-40%);
 }
