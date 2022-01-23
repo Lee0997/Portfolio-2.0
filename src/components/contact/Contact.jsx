@@ -1,5 +1,6 @@
 import react from "react";
 import "./contact.css";
+import CV from "../../img/cv-icon.png";
 import Phone from "../../img/phone-icon.png";
 import Email from "../../img/email-icon.png";
 import Address from "../../img/address-icon.png";
@@ -37,6 +38,10 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Get in touch</h1>
           <div className="c-info">
+            <div className="c-info-item">
+              <img src={CV} alt="" className="c-icon"></img>
+              <a href="https://docs.google.com/document/d/1hbPj5V6HpA7QmLlfEnQeTaFxRVuu8wLt/edit?usp=sharing&ouid=108683363049057376621&rtpof=true&sd=true">Click Here for a look at my CV!</a>
+            </div>
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon"></img>
               +44 7850 396398
