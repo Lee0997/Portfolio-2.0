@@ -9,7 +9,7 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const formRef = useRef();
-  const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,7 +23,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -40,11 +40,13 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={CV} alt="" className="c-icon"></img>
-              <a href="https://docs.google.com/document/d/1hbPj5V6HpA7QmLlfEnQeTaFxRVuu8wLt/edit?usp=sharing&ouid=108683363049057376621&rtpof=true&sd=true">Click Here for a look at my CV!</a>
+              <a href="https://docs.google.com/document/d/16ccpg--ek7OvNCa6SNh3mm4ETImxEIGE/edit">
+                Click Here for a look at my CV!
+              </a>
             </div>
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon"></img>
-              +44 7850 396398
+              +44 7506 062366
             </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />
@@ -52,13 +54,15 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
-              12 Lahmber Way, West Bromwich England
+              58 Dudley Road, Dudley, England
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-description">
-            <b>Want to drop me an email?</b> Just use the form below and I'll be sure to get back to you as soon as possible. Please feel free to give me a call with the number provided. Thanks! 
+            <b>Want to drop me an email?</b> Just use the form below and I'll be
+            sure to get back to you as soon as possible. Please feel free to
+            give me a call with the number provided. Thanks!
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" />

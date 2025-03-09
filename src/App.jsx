@@ -4,12 +4,14 @@ import Worklist from "./components/worklist/Worklist";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
-  return <div>
-    <Intro />
-    <About />
-    <Worklist />
-    <Contact />
-  </div>;
+  return (
+    <div>
+      <Intro />
+      <About />
+      <Worklist />
+      <Contact />
+    </div>
+  );
 };
 
 export default App;
