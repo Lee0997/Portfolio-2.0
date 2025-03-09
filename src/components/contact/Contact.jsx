@@ -1,10 +1,9 @@
-import react from "react";
 import "./contact.css";
 import CV from "../../img/cv-icon.png";
 import Phone from "../../img/phone-icon.png";
 import Email from "../../img/email-icon.png";
 import Address from "../../img/address-icon.png";
-import { useContext, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
