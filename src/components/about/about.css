@@ -1,5 +1,5 @@
 .a {
-  height: 100vh;
+  min-height: 100vh; /* Use min-height instead of height */
   display: flex;
   align-items: center;
   font-size: 28px;

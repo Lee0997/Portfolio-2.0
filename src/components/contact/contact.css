@@ -1,7 +1,6 @@
 .c {
-  height: 100vh;
+  min-height: 100vh; /* Use min-height instead of height */
   position: relative;
-  margin-bottom: 50px; /* Add spacing below the contact section */
 }
 
 .c-bg {
