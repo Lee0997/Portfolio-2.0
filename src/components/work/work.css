@@ -4,8 +4,15 @@
   width: 30%;
   margin: 20px 10px;
   border: 2px solid rgb(69, 113, 235);
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.w:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .w-browser {
@@ -27,11 +34,47 @@
 
 .w-img {
   width: 100%;
-  transition: all 10s ease;
+  transition: all 0.5s ease; /* Faster transition for hover effect */
   display: block;
   vertical-align: top;
 }
 
 .w:hover .w-img {
-  transform: translateY(-40%);
+  transform: translateY(-20%); /* Adjusted hover effect */
+}
+
+.dark-mode .w {
+  border-color: #90caf9;
+  background-color: #2c2c2c;
+}
+
+.dark-mode .w-browser {
+  background-color: #90caf9;
+}
+
+@media (max-width: 768px) {
+  .w {
+    width: 90%; /* Reduce card width */
+    margin: 10px auto; /* Center the cards */
+  }
+
+  .w-img {
+    height: auto; /* Allow images to scale dynamically */
+  }
+}
+
+/* Tablet View (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .w {
+    width: 45%; /* Adjust card width for tablets */
+    margin: 15px;
+  }
+}
+
+/* Desktop View (1025px and above) */
+@media (min-width: 1025px) {
+  .w {
+    width: 30%; /* Default card width for desktops */
+    margin: 20px 10px;
+  }
 }

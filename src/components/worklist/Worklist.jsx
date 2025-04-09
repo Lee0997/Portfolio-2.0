@@ -6,7 +6,7 @@ function Worklist() {
   return (
     <div className="wl">
       <div className="wl-texts">
-        <h1 className="wl-title"> Some examples of my work... </h1>
+        <h1 className="wl-title">Some examples of my work...</h1>
         <p className="wl-desc">
           As a software developer, I am showcasing some of the projects and
           assignments I have completed to reflect the skills I've developed so

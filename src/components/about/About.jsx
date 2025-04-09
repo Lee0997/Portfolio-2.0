@@ -1,7 +1,7 @@
 import "./about.css";
 import Team from "../../img/Team.jpg";
 
-export const About = () => {
+const About = () => {
   return (
     <div className="a">
       <div className="a-left">
@@ -33,3 +33,5 @@ export const About = () => {
     </div>
   );
 };
+
+export default About;

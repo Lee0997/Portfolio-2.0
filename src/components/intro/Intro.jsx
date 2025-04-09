@@ -1,7 +1,7 @@
 import "./intro.css";
 import Me from "../../img/Me.png";
 
-const intro = () => {
+const Intro = () => {
   return (
     <div className="i">
       <div className="i-left">
@@ -30,10 +30,10 @@ const intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Me} alt="Me" className="i-img" />
+        <img src={Me} alt="Lee Nock" className="i-img" />
       </div>
     </div>
   );
 };
 
-export default intro;
+export default Intro;

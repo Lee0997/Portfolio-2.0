@@ -1,85 +1,235 @@
 .c {
-    height: 100vh;
-    position: relative;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 50px; /* Add spacing below the contact section */
 }
 
 .c-bg {
-    width: 40px;
-    height: 100%;
-    background-color: rgb(69, 113, 235);
-    position: absolute;
+  width: 40px;
+  height: 100%;
+  background-color: rgb(69, 113, 235);
+  position: absolute;
 }
 
 .c-wrapper {
-    padding: 100px;
-    display: flex;
+  padding: 50px 100px;
+  display: flex;
 }
 
 .c-left {
-    flex: 1;
+  flex: 1;
 }
 
 .c-right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .c-title {
-    font-size: 100px;
-    width: 80%;
+  font-size: 100px;
+  width: 80%;
 }
 
 .c-info-item {
-    display: flex;
-    align-items: center;
-    margin: 100px 0px;
-    font-weight: 600;
-    width: 70%;
-    overflow: hidden;
-    font-size: 28px;
+  display: flex;
+  align-items: center;
+  margin: 100px 0px;
+  font-weight: 600;
+  width: 70%;
+  overflow: hidden;
+  font-size: 28px;
 }
 
 .c-icon {
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
 }
 
 .c-description {
-    font-weight: 400;
-    font-size: 28px;
+  font-weight: 400;
+  font-size: 28px;
 }
 
 form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 input {
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 28px;
-    padding-left: 10px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  font-size: 28px;
+  padding-left: 10px;
 }
 
 textarea {
-    width: 100%;
-    margin: 10px 0px;
-    font-size: 28px;
-    padding-left: 10px;
+  width: 100%;
+  margin: 10px 0px;
+  padding-top: 10px;
+  font-size: 28px;
+  padding-left: 10px;
 }
 
 button {
-    border: none;
-    padding: 15px;
-    background-color: rgb(69, 113, 235);
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
+  border: none;
+  padding: 15px;
+  background-color: rgb(69, 113, 235);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.dark-mode .c {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode .c-bg {
+  background-color: #90caf9;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  border-bottom: 1px solid #90caf9;
+}
+
+.dark-mode button {
+  background-color: #90caf9;
+  color: #121212;
+}
+
+@media (max-width: 768px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .c-left,
+  .c-right {
+    width: 100%;
+  }
+
+  .c-title {
+    font-size: 40px; /* Reduce font size */
+    text-align: center;
+  }
+
+  .c-info-item {
+    font-size: 18px; /* Adjust font size */
+    margin: 15px 0; /* Reduce spacing */
+  }
+
+  input,
+  textarea {
+    width: 100%; /* Make inputs take full width */
+  }
+
+  button {
+    width: 100%; /* Make button take full width */
+  }
+
+  .c-bg {
+    display: none; /* Hide the banner in mobile view */
+  }
+}
+
+/* Tablet View (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .c-wrapper {
+    padding: 30px;
+  }
+
+  .c-title {
+    font-size: 60px;
+  }
+
+  .c-info-item {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  input,
+  textarea {
+    width: 80%;
+  }
+
+  button {
+    width: 80%;
+  }
+}
+
+/* Desktop View (1025px and above) */
+@media (min-width: 1025px) {
+  .c-wrapper {
+    padding: 50px 100px;
+  }
+
+  .c-title {
+    font-size: 100px;
+  }
+
+  .c-info-item {
     font-size: 28px;
+    margin: 30px 0;
+  }
+
+  input,
+  textarea {
+    width: 50%;
+  }
+
+  button {
+    width: 50%;
+  }
+}
+
+/* Adjust layout for 864x870 viewport */
+@media (max-width: 900px) and (min-height: 870px) {
+  .c {
+    height: auto; /* Allow the contact section to expand dynamically */
+    margin-bottom: 50px; /* Add spacing below the contact section */
+  }
+
+  .c-wrapper {
+    flex-direction: column; /* Stack the contact section vertically */
+    padding: 20px;
+    gap: 20px; /* Add spacing between left and right sections */
+  }
+
+  .c-left,
+  .c-right {
+    width: 100%; /* Ensure both sections take full width */
+  }
+
+  .c-title {
+    font-size: 50px; /* Adjust font size for better readability */
+    text-align: center;
+  }
+
+  .c-info-item {
+    font-size: 18px; /* Adjust font size */
+    margin: 15px 0; /* Reduce spacing */
+  }
+
+  input,
+  textarea {
+    width: 100%; /* Ensure inputs take full width */
+  }
+
+  button {
+    width: 100%; /* Ensure button takes full width */
+  }
+
+  .c-bg {
+    display: none; /* Hide the left banner to save space */
+  }
 }

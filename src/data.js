@@ -1,8 +1,4 @@
-// import firstProject from "./img/first-project.png";
-// import quiz from "./img/quiz.png";
 import planner from "./img/day-planner.png";
-// import tracker from "./img/workout-tracker.png";
-// import secondProject from "./img/second-project.png";
 import generator from "./img/password-generator.png";
 import foodSpot from "./img/FoodSpot.png";
 import responsiveLayout from "./img/responsive_layout.png";

@@ -5,6 +5,7 @@
   align-items: center;
   text-align: center;
   height: 100vh;
+  background-color: #f9f9f9; /* Light background for better contrast */
 }
 
 .wl-texts {
@@ -14,11 +15,15 @@
 .wl-title {
   font-size: 60px;
   font-weight: 600;
+  color: #456feb; /* Highlighted color */
+  text-transform: uppercase;
 }
 
 .wl-desc {
   margin: 20px 0px;
-  font-size: 28px;
+  font-size: 20px; /* Slightly smaller for better readability */
+  line-height: 1.6;
+  color: #555; /* Softer text color */
 }
 
 .wl-list {
@@ -26,4 +31,91 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  gap: 20px; /* Add spacing between items */
+}
+
+.wl-list:hover .wl-title {
+  color: #2a4db8; /* Subtle hover effect on title */
+}
+
+.dark-mode .wl {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode .wl-title {
+  color: #90caf9;
+}
+
+.dark-mode .wl-desc {
+  color: #cccccc;
+}
+
+@media (max-width: 768px) {
+  .wl {
+    padding: 20px;
+    height: auto; /* Allow height to adjust dynamically */
+  }
+
+  .wl-texts {
+    width: 100%;
+    margin-bottom: 20px; /* Add spacing between text and list */
+  }
+
+  .wl-title {
+    font-size: 40px; /* Increase font size */
+  }
+
+  .wl-desc {
+    font-size: 16px; /* Increase font size for readability */
+    line-height: 1.6; /* Improve line spacing */
+  }
+
+  .wl-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .wl-list .w {
+    width: 90%; /* Make cards smaller for better visibility */
+    margin: 10px auto; /* Center the cards */
+  }
+}
+
+/* Tablet View (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wl {
+    padding: 30px;
+  }
+
+  .wl-title {
+    font-size: 50px;
+  }
+
+  .wl-desc {
+    font-size: 18px;
+  }
+
+  .wl-list {
+    gap: 20px;
+  }
+}
+
+/* Desktop View (1025px and above) */
+@media (min-width: 1025px) {
+  .wl {
+    padding: 50px 100px;
+  }
+
+  .wl-title {
+    font-size: 60px;
+  }
+
+  .wl-desc {
+    font-size: 20px;
+  }
+
+  .wl-list {
+    gap: 30px;
+  }
 }

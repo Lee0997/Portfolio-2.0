@@ -38,21 +38,25 @@ const Contact = () => {
           <h1 className="c-title">Get in touch</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={CV} alt="" className="c-icon"></img>
-              <a href="https://docs.google.com/document/d/16ccpg--ek7OvNCa6SNh3mm4ETImxEIGE/edit">
+              <img src={CV} alt="CV Icon" className="c-icon" />
+              <a
+                href="https://docs.google.com/document/d/16ccpg--ek7OvNCa6SNh3mm4ETImxEIGE/edit"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Click Here for a look at my CV!
               </a>
             </div>
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon"></img>
+              <img src={Phone} alt="Phone Icon" className="c-icon" />
               +44 7506 062366
             </div>
             <div className="c-info-item">
-              <img src={Email} alt="" className="c-icon" />
+              <img src={Email} alt="Email Icon" className="c-icon" />
               leenock2012@yahoo.co.uk
             </div>
             <div className="c-info-item">
-              <img src={Address} alt="" className="c-icon" />
+              <img src={Address} alt="Address Icon" className="c-icon" />
               58 Dudley Road, Dudley, England
             </div>
           </div>
