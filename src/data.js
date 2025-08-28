@@ -36,7 +36,7 @@ export const assignment = [
     link: "https://beautiful-granita-27db1d.netlify.app/",
     title: "FoodSpot",
     description:
-      "A restaurant finder and review app, helping users discover new places to eat and share their experiences.",
+      "A restaurant blog, used to practice my skills in designing a professional and friendly looking site.",
   },
   {
     id: 5,
