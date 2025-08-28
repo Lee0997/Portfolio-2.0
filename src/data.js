@@ -2,7 +2,7 @@ import planner from "./img/day-planner.png";
 import generator from "./img/password-generator.png";
 import foodSpot from "./img/FoodSpot.png";
 import responsiveLayout from "./img/responsive_layout.png";
-import youtubeClone from "./img/youtube_clone.png";
+import davesDecor from "./img/Dave's-Decor-Logo.png";
 import figmaProject from "./img/figma-recreation.png";
 
 export const assignment = [
@@ -48,11 +48,11 @@ export const assignment = [
   },
   {
     id: 6,
-    img: youtubeClone,
-    link: "https://youtube-clone-lee0997.netlify.app/",
-    title: "Youtube Clone",
+    img: davesDecor,
+    link: "https://decorator-landingpage.netlify.app/",
+    title: "Dave's Decor Landing Page",
     description:
-      "A YouTube clone built with React, featuring video search, playback, and responsive design. Integrates with the YouTube Data API.",
+      "A freelance decorator landing page template designed and built for client work. Features modern design, responsive layout, and clear calls to action.",
   },
 ];
 

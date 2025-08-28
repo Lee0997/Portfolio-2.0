@@ -37,9 +37,15 @@
 
 .w-img {
   width: 100%;
-  transition: all 0.5s ease; /* Faster transition for hover effect */
+  max-width: 320px;
+  height: 200px;
+  object-fit: cover;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease; /* Faster transition for hover effect */
   vertical-align: top;
+  border-radius: 8px;
 }
 
 .dark-mode .w {
@@ -58,7 +64,10 @@
   }
 
   .w-img {
-    height: auto; /* Allow images to scale dynamically */
+    width: 100%;
+    max-width: 100%;
+    height: 160px;
+    object-fit: cover;
   }
 }
 
