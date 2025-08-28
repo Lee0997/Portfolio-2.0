@@ -53,13 +53,17 @@
 }
 
 .dark-mode .a {
-  background-color: #1e1e1e;
+  background: linear-gradient(to right, #232526, #1e1e1e);
   color: #ffffff;
 }
 
 .dark-mode .a-card {
   background: #232323;
   color: #fff;
+}
+
+.dark-mode .a-right {
+  background: rgba(30, 30, 30, 0.95);
 }
 
 .dark-mode .a-title {
