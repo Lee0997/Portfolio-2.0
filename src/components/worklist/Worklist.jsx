@@ -17,7 +17,13 @@ function Worklist() {
       </div>
       <div className="wl-list">
         {assignment.map((item) => (
-          <Work key={item.id} img={item.img} link={item.link} />
+          <Work
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            description={item.description}
+            title={item.title}
+          />
         ))}
       </div>
     </div>

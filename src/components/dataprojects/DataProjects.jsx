@@ -17,7 +17,7 @@ const dataProjects = [
   {
     title: "Student Performance Analysis",
     description:
-      "Data analysis and visualization of student performance data, including a presentation of key findings.",
+      "Data analysis and visualization of student performance data, taking a look at whether or not parental education levels affected a student's exam scores.",
     img: studentImg,
     repo: "https://github.com/Lee0997/Portfolio-Data-Projects/tree/main/student-performance",
   },

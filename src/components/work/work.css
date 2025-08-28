@@ -1,3 +1,6 @@
+.w-desc-block {
+  margin-top: 1.2rem;
+}
 .w {
   justify-content: center;
   align-items: center;
@@ -37,10 +40,6 @@
   transition: all 0.5s ease; /* Faster transition for hover effect */
   display: block;
   vertical-align: top;
-}
-
-.w:hover .w-img {
-  transform: translateY(-20%); /* Adjusted hover effect */
 }
 
 .dark-mode .w {
