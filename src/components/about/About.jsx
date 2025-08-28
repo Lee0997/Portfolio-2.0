@@ -16,18 +16,32 @@ const About = () => {
           On the left, you'll see the incredible people who helped shape my
           journey—my cohort. This talented and supportive group played a huge
           role in my development, and we continue to learn from and guide each
-          other as we progress in the tech industry. Alongside them, my current
-          peers at LEAD Training have also been instrumental in helping me
-          refine my skills and get back into software development.
+          other as we progress in the tech industry. Alongside them, my peers at
+          LEAD Training and Just IT have also been instrumental in helping me
+          refine my skills and expand into new areas.
         </p>
         <p className="a-desc">
-          As a person with a background in hospitality, construction and
-          fabrication, I had an arduous journey with humble beginnings. However,
-          I remained focused and threw myself in alongside my peers. Quickly
-          realising how much I liked coding and working with my team, I began to
-          spend my free time refining my skills and possibly enjoying a coding
-          meme here and there... I'm a gaming enthusiast, I love writing and
-          more than anything, I enjoy a challenge!
+          My journey began in hospitality, construction, and fabrication, but my
+          passion for technology led me to retrain as a software developer.
+          After completing a coding bootcamp with the University of Birmingham
+          and working as a Tech Consultant, I continued to grow my skills in
+          software and web development.
+        </p>
+        <p className="a-desc">
+          Most recently, I joined the{" "}
+          <strong>Just IT Data Technician Skills Bootcamp</strong>, where I
+          transitioned into the world of data analysis. This intensive program
+          covered Excel, SQL, Python, Tableau, Power BI, and cloud technologies
+          like Azure. I completed hands-on projects in data cleaning,
+          visualization, and business analysis, and developed a strong
+          foundation in extracting insights from data to support business
+          decisions. My time at Just IT has been pivotal in shaping me into a
+          well-rounded <strong>Software Developer & Data Analyst</strong>.
+        </p>
+        <p className="a-desc">
+          I am a gaming enthusiast, I love writing, and more than anything, I
+          enjoy a challenge! Whether building web apps or uncovering insights
+          from data, I am always eager to learn and grow.
         </p>
       </div>
     </div>

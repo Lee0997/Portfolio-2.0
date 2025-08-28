@@ -1,7 +1,9 @@
 import { useState } from "react";
+
 import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
 import Worklist from "./components/worklist/Worklist";
+import DataProjects from "./components/dataprojects/DataProjects";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
@@ -19,6 +21,7 @@ const App = () => {
       <Intro />
       <About />
       <Worklist />
+      <DataProjects />
       <Contact />
     </div>
   );

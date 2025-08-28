@@ -6,14 +6,13 @@ function Worklist() {
   return (
     <div className="wl">
       <div className="wl-texts">
-        <h1 className="wl-title">Some examples of my work...</h1>
+        <h1 className="wl-title">Software Development Projects</h1>
         <p className="wl-desc">
-          As a software developer, I am showcasing some of the projects and
-          assignments I have completed to reflect the skills I've developed so
-          far. After initially training with the University of Birmingham, I
-          worked briefly as a Tech Consultant for QA before moving into my
-          current role as a Software Solutions Consultant at OneAdvanced, where
-          I work with XML and other technologies.
+          As a <strong>Software Developer & Data Analyst</strong>, I work on a
+          variety of projects that showcase my skills in both fields. Below are
+          some of my software development projects, including web apps and tools
+          built with modern technologies. For my data analysis work, see the
+          next section.
         </p>
       </div>
       <div className="wl-list">

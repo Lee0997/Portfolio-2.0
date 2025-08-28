@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Address} alt="Address Icon" className="c-icon" />
-              58 Dudley Road, Dudley, England
+              Dudley, England
             </div>
           </div>
         </div>

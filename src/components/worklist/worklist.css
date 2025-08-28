@@ -4,8 +4,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: auto;
   background-color: #f9f9f9; /* Light background for better contrast */
+  margin-bottom: 120px;
 }
 
 .wl-texts {
@@ -55,6 +56,7 @@
   .wl {
     padding: 20px;
     height: auto; /* Allow height to adjust dynamically */
+    margin-bottom: 90px;
   }
 
   .wl-texts {
