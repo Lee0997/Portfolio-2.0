@@ -1,5 +1,4 @@
 import "./contact.css";
-import CV from "../../img/cv-icon.png";
 import Phone from "../../img/phone-icon.png";
 import Email from "../../img/email-icon.png";
 import Address from "../../img/address-icon.png";
@@ -37,16 +36,6 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Get in touch</h1>
           <div className="c-info">
-            <div className="c-info-item">
-              <img src={CV} alt="CV Icon" className="c-icon" />
-              <a
-                href="https://docs.google.com/document/d/16ccpg--ek7OvNCa6SNh3mm4ETImxEIGE/edit"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click Here for a look at my CV!
-              </a>
-            </div>
             <div className="c-info-item">
               <img src={Phone} alt="Phone Icon" className="c-icon" />
               +44 7506 062366

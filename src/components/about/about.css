@@ -1,8 +1,11 @@
 .a {
-  min-height: 100vh; /* Use min-height instead of height */
+  min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 28px;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  padding: 0;
 }
 
 .a-card {
@@ -11,6 +14,8 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 24px rgba(69, 111, 235, 0.1);
+  background: #fff;
 }
 
 .a-card.bg {
@@ -31,6 +36,14 @@
 
 .a-right {
   flex: 1;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  box-shadow: 0 2px 12px rgba(69, 111, 235, 0.07);
+  margin: 0 2vw;
+  padding: 40px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .a-img {
@@ -57,6 +70,8 @@
   .a-left,
   .a-right {
     width: 100%;
+    margin: 0;
+    padding: 0 10px;
   }
 
   .a-card {
@@ -64,17 +79,27 @@
     height: auto;
     margin-bottom: 20px; /* Add spacing between cards */
   }
-
   .a-title {
-    font-size: 40px; /* Increase font size */
+    font-size: 32px;
+    color: #456feb;
     text-align: center;
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  .a-right {
+    padding: 20px 10px;
+  }
+  .a {
+    padding: 0 0 30px 0;
   }
 
   .a-sub,
   .a-desc {
-    font-size: 16px; /* Increase font size for readability */
-    line-height: 1.6; /* Improve line spacing */
+    font-size: 15px;
+    line-height: 1.6;
     text-align: justify;
+    color: #333;
+    margin-bottom: 12px;
   }
 }
 
