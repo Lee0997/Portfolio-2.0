@@ -86,6 +86,7 @@
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
+  margin-top: 2px;
 }
 
 .dark-mode .i-title-item {
