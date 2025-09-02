@@ -41,7 +41,7 @@
   text-align: center;
   height: auto;
   background-color: #f9f9f9; /* Light background for better contrast */
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .wl-texts {
