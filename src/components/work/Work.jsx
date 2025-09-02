@@ -22,6 +22,7 @@ export const Work = ({ img, link, description, title }) => {
       </a>
       {description && (
         <div className="w-desc-block">
+          <hr className="w-desc-separator" />
           <h4 className="w-desc-heading">{heading}</h4>
           <p className="w-desc">{description}</p>
         </div>

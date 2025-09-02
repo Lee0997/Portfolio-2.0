@@ -43,17 +43,22 @@ const DataProjects = () => (
     </div>
     <div className="wl-list wl-list-data">
       {dataProjects.map((project, idx) => (
-        <a
-          className="w w-data-project w-data-link"
-          key={idx}
-          href={project.repo}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={project.img} alt={project.title} className="w-data-img" />
-          <h3 className="w-title">{project.title}</h3>
-          <p className="w-desc">{project.description}</p>
-        </a>
+        <div className="w w-data-project" key={idx}>
+          <a
+            href={project.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            id="img-parent"
+            style={{ display: "block" }}
+          >
+            <img src={project.img} alt={project.title} className="w-data-img" />
+          </a>
+          <div className="w-data-desc-block">
+            <hr className="w-desc-separator" />
+            <h3 className="w-title">{project.title}</h3>
+            <p className="w-desc">{project.description}</p>
+          </div>
+        </div>
       ))}
     </div>
   </div>

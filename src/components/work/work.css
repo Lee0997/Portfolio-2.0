@@ -1,5 +1,5 @@
 .w-desc-block {
-  margin-top: 1.2rem;
+  margin-top: 0;
 }
 .w {
   justify-content: center;
@@ -37,14 +37,24 @@
 
 .w-img {
   width: 100%;
-  max-width: 320px;
   height: 200px;
   object-fit: cover;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 0.5s ease; /* Faster transition for hover effect */
-  border-radius: 8px;
+  margin: 0;
+  transition: all 0.5s ease;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+
+#img-parent {
+  position: relative;
+  overflow: hidden;
+}
+
+.w-desc-separator {
+  margin-top: 0;
 }
 
 .dark-mode .w {
@@ -64,7 +74,6 @@
 
   .w-img {
     width: 100%;
-    max-width: 100%;
     height: 160px;
     object-fit: cover;
   }

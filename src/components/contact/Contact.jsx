@@ -48,6 +48,36 @@ const Contact = () => {
               <img src={Address} alt="Address Icon" className="c-icon" />
               Dudley, England
             </div>
+            <div className="c-info-item">
+              <a
+                href="https://docs.google.com/document/d/1YL1Bsboo3sIkeBSC9hBdthAf_Glgv7G1/edit?usp=sharing&ouid=108683363049057376621&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="c-link"
+              >
+                <img
+                  src={require("../../img/cv-icon.png")}
+                  alt="CV Icon"
+                  className="c-icon"
+                />
+                View My CV
+              </a>
+            </div>
+            <div className="c-info-item">
+              <a
+                href="https://github.com/Lee0997"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="c-link"
+              >
+                <img
+                  src={require("../../img/github-mark.png")}
+                  alt="GitHub Icon"
+                  className="c-icon"
+                />
+                My GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div className="c-right">
