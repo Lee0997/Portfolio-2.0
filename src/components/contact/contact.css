@@ -60,6 +60,20 @@
   color: rgb(69, 113, 235);
 }
 
+.dark-mode .c-link {
+  color: #90caf9;
+}
+.dark-mode .c-link:hover {
+  color: #ffffff;
+}
+
+.dark-mode .c-info-item {
+  color: #cccccc;
+}
+.dark-mode .c-icon {
+  filter: brightness(0.85) invert(0.85);
+}
+
 .c-description {
   font-weight: 400;
   font-size: 28px;
